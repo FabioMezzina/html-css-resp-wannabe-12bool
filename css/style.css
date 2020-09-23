@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+  font-family: sans-serif;
+}
+
+#lessons {
+  background-color: #ecf0f1;
+}
+
+#steps {
+  background-color: rgba(66, 139, 202, 0.4);
+}
+
+#why {
+  background-color: rgba(246, 195, 122, 0.4);
+}
+
+[class*="col-"] {
+  margin-bottom: 50px;
+}
+
+/* [id]:not(:last-of-type) {
+  padding-bottom: 30px;
+} */
+
+
+/* TYPOGRAPHY */
+h1,
+h2 {
+  padding: 15px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+#why img {
+  padding: 15px;
+  background-color: #428bca;
+  border-radius: 50%;
+}
+
+/* MOBILE */
+img {
+  display: block;
+  margin: 0 auto 15px;
+  height: 100px;
+}
+
+p {
+  margin: auto;
+  max-width: 650px;
+  text-align: center;
+}
+
+hr {
+  margin: 15px auto 15px;
+  max-width: 50%;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    padding: 0 15px;
+    font-size: 18px;
+    max-width: 1024px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  hr {
+    width: 100%;
+    max-width: 100%;
+  }
+}
