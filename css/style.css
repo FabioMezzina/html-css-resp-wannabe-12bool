@@ -7,6 +7,7 @@
 /* GENERAL */
 body {
   font-family: sans-serif;
+  color: #2c3e50;
 }
 
 #lessons {
@@ -33,7 +34,7 @@ body {
 /* TYPOGRAPHY */
 h1,
 h2 {
-  padding: 15px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -79,7 +80,7 @@ hr {
 
   h1,
   h2 {
-    padding: 20px 0;
+    padding: 25px 0;
     text-align: center;
   }
 
@@ -107,7 +108,7 @@ hr {
   }
   h1,
   h2 {
-    padding: 25px 0;
+    padding: 30px 0;
     text-align: center;
   }
 
