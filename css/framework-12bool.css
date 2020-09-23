@@ -178,6 +178,10 @@
   }
 
   /* offset */
+  [class*="offset-xs-"] {
+    margin-left: 0;
+  }
+
   .offset-md-1 {
     margin-left: calc(100% / 12);
   }
@@ -278,6 +282,10 @@
   }
 
   /* offset */
+  [class*="offset-md-"] {
+    margin-left: 0;
+  }
+  
   .offset-lg-1 {
     margin-left: calc(100% / 12);
   }
