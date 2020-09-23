@@ -60,7 +60,7 @@ img {
 
 p {
   margin: auto;
-  max-width: 650px;
+  max-width: 500px;
   text-align: center;
 }
 
@@ -71,7 +71,20 @@ hr {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+h1 {
+  font-size: 30px;
+}
 
+h2 {
+  font-size: 24px;
+}
+
+p {
+  max-width: 650px;
+}
+
+img {
+  height: 150px;
 }
 
 /* DESKTOP */
