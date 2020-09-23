@@ -178,7 +178,7 @@
   }
 
   /* offset */
-  [class*="offset-xs-"] {
+  .offset-md-0 {
     margin-left: 0;
   }
 
@@ -282,10 +282,10 @@
   }
 
   /* offset */
-  [class*="offset-md-"] {
+  .offset-lg-0 {
     margin-left: 0;
   }
-  
+
   .offset-lg-1 {
     margin-left: calc(100% / 12);
   }
