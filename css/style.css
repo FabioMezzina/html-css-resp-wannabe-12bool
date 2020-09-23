@@ -71,6 +71,10 @@ hr {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+[class*="offset-xs-"] {
+  margin-left: 0;
+}
+
 h1 {
   font-size: 30px;
 }
@@ -89,6 +93,10 @@ img {
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+  [class*="offset-md-"] {
+    margin-left: 0;
+  }
+
   h1 {
     font-size: 34px;
   }
